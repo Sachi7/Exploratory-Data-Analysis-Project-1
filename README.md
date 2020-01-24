@@ -89,7 +89,7 @@ GitHub so that the GitHub version of your repository is up to
 date. There should be four PNG files and four R code files.
 
 
-The four plots that you will need to construct are shown in the figures folder of the git hub referenced above.
+The four plots that you will need to construct are shown in the figures folder of the git hub:
 
 [https://github.com/rdpeng/ExData_Plotting1](https://github.com/rdpeng/ExData_Plotting1)
 
