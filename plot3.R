@@ -3,7 +3,7 @@
 ## Course Project 1: Plot 3
 
 
-# Reading and cleaning the data
+# Reading, cleaning, and subsetting the data
 
 data <- read.table("household_power_consumption.txt", header = TRUE,  sep = ";", na.strings = "?")
 date <- as.Date(data$Date, format = "%d/%m/%Y")
