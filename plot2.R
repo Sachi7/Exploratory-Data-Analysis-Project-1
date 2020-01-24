@@ -12,8 +12,6 @@ data_time <- strptime(paste(mydata$date, mydata$Time), format = "%Y-%m-%d %H:%M:
 mydata <- cbind(data_time, mydata[,3:9])
 ```
 
-
-
 # Plot 2
 with(mydata, plot(Global_active_power ~ data_time, type = "l", xlab = "", ylab = "Global Active Power (kilowatts)"))
 
