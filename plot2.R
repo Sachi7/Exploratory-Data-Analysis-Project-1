@@ -11,7 +11,7 @@ data_transf <- cbind(date,data[-1])
 mydata <- subset(data_transf, date >= "2007-02-01" & date <= "2007-02-02")
 data_time <- strptime(paste(mydata$date, mydata$Time), format = "%Y-%m-%d %H:%M:%S")
 mydata <- cbind(data_time, mydata[,3:9])
-```
+
 
 # Plot 2
 
