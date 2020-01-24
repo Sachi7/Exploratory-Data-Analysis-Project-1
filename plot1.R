@@ -11,7 +11,6 @@ data_transf <- cbind(date,data[-1])
 mydata <- subset(data_transf, date >= "2007-02-01" & date <= "2007-02-02")
 ```
 
-
 # Plot 1: Global Active Power
 
 gap <- mydata$Global_active_power
